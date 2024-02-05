@@ -1,5 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    android:targetSandboxVersion="2">
 
+    <dist:module dist:instant="true" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,6 +22,14 @@
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" android:host="progidtech.com" />
+            <data android:scheme="https" android:host="206.189.6.30" />
         </intent-filter>
       </activity>
     </application>

@@ -14,6 +14,17 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8350EB9CF2FBC7049BF23FEB /* libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC3D28F30907E94DB276850 /* libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a */; };
+		8D0B45222B6AAA3300206E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0B45212B6AAA3300206E1F /* AppDelegate.m */; };
+		8D0B45252B6AAA3300206E1F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0B45242B6AAA3300206E1F /* SceneDelegate.m */; };
+		8D0B45282B6AAA3300206E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0B45272B6AAA3300206E1F /* ViewController.m */; };
+		8D0B452B2B6AAA3300206E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0B45292B6AAA3300206E1F /* Main.storyboard */; };
+		8D0B452D2B6AAA3400206E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0B452C2B6AAA3400206E1F /* Assets.xcassets */; };
+		8D0B45302B6AAA3400206E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0B452E2B6AAA3400206E1F /* LaunchScreen.storyboard */; };
+		8D0B45332B6AAA3400206E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0B45322B6AAA3400206E1F /* main.m */; };
+		8D0B45372B6AAA3400206E1F /* rapidsnarkAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 8D0B451E2B6AAA3300206E1F /* rapidsnarkAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DD353292B7126540086B3A0 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 8DD353282B7126540086B3A0 /* main.jsbundle */; };
+		8DD3532A2B7126640086B3A0 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 8DD353282B7126540086B3A0 /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +35,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = rapidsnarkInstantApp;
 		};
+		8D0B45352B6AAA3400206E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0B451D2B6AAA3300206E1F;
+			remoteInfo = rapidsnarkAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D0B45162B6AA4CC00206E1F /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				8D0B45372B6AAA3400206E1F /* rapidsnarkAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* rapidsnarkInstantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rapidsnarkInstantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,12 +69,29 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rapidsnarkInstantApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rapidsnarkInstantApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3084E4F8F173EB89864111B2 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp-rapidsnarkAppClip.release.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-rapidsnarkInstantApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp.debug.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp/Pods-rapidsnarkInstantApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-rapidsnarkInstantApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp.release.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp/Pods-rapidsnarkInstantApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.debug.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests/Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-rapidsnarkInstantApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rapidsnarkInstantApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC3D28F30907E94DB276850 /* libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rapidsnarkInstantApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.release.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests/Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D0B451E2B6AAA3300206E1F /* rapidsnarkAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rapidsnarkAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0B45202B6AAA3300206E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D0B45212B6AAA3300206E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D0B45232B6AAA3300206E1F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8D0B45242B6AAA3300206E1F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8D0B45262B6AAA3300206E1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D0B45272B6AAA3300206E1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D0B452A2B6AAA3300206E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0B452C2B6AAA3400206E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0B452F2B6AAA3400206E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D0B45312B6AAA3400206E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0B45322B6AAA3400206E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D0B45342B6AAA3400206E1F /* rapidsnarkAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rapidsnarkAppClip.entitlements; sourceTree = "<group>"; };
+		8DD353282B7126540086B3A0 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		D6BB77D53F9C688B2DDF0DA0 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rapidsnarkInstantApp-rapidsnarkAppClip.debug.xcconfig"; path = "Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +109,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-rapidsnarkInstantApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0B451B2B6AAA3300206E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8350EB9CF2FBC7049BF23FEB /* libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +143,7 @@
 		13B07FAE1A68108700A75B9A /* rapidsnarkInstantApp */ = {
 			isa = PBXGroup;
 			children = (
+				8DD353282B7126540086B3A0 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -102,6 +160,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-rapidsnarkInstantApp.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.a */,
+				7AC3D28F30907E94DB276850 /* libPods-rapidsnarkInstantApp-rapidsnarkAppClip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +178,7 @@
 				13B07FAE1A68108700A75B9A /* rapidsnarkInstantApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rapidsnarkInstantAppTests */,
+				8D0B451F2B6AAA3300206E1F /* rapidsnarkAppClip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,8 +193,28 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* rapidsnarkInstantApp.app */,
 				00E356EE1AD99517003FC87E /* rapidsnarkInstantAppTests.xctest */,
+				8D0B451E2B6AAA3300206E1F /* rapidsnarkAppClip.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0B451F2B6AAA3300206E1F /* rapidsnarkAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				8D0B45202B6AAA3300206E1F /* AppDelegate.h */,
+				8D0B45212B6AAA3300206E1F /* AppDelegate.m */,
+				8D0B45232B6AAA3300206E1F /* SceneDelegate.h */,
+				8D0B45242B6AAA3300206E1F /* SceneDelegate.m */,
+				8D0B45262B6AAA3300206E1F /* ViewController.h */,
+				8D0B45272B6AAA3300206E1F /* ViewController.m */,
+				8D0B45292B6AAA3300206E1F /* Main.storyboard */,
+				8D0B452C2B6AAA3400206E1F /* Assets.xcassets */,
+				8D0B452E2B6AAA3400206E1F /* LaunchScreen.storyboard */,
+				8D0B45312B6AAA3400206E1F /* Info.plist */,
+				8D0B45322B6AAA3400206E1F /* main.m */,
+				8D0B45342B6AAA3400206E1F /* rapidsnarkAppClip.entitlements */,
+			);
+			path = rapidsnarkAppClip;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -144,6 +224,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-rapidsnarkInstantApp.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-rapidsnarkInstantApp-rapidsnarkInstantAppTests.release.xcconfig */,
+				D6BB77D53F9C688B2DDF0DA0 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.debug.xcconfig */,
+				3084E4F8F173EB89864111B2 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -183,15 +265,38 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				8D0B45162B6AA4CC00206E1F /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8D0B45362B6AAA3400206E1F /* PBXTargetDependency */,
 			);
 			name = rapidsnarkInstantApp;
 			productName = rapidsnarkInstantApp;
 			productReference = 13B07F961A680F5B00A75B9A /* rapidsnarkInstantApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8D0B451D2B6AAA3300206E1F /* rapidsnarkAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0B45382B6AAA3400206E1F /* Build configuration list for PBXNativeTarget "rapidsnarkAppClip" */;
+			buildPhases = (
+				380AB8D46D8FF7BE5819FB1A /* [CP] Check Pods Manifest.lock */,
+				8D0B451A2B6AAA3300206E1F /* Sources */,
+				8D0B451B2B6AAA3300206E1F /* Frameworks */,
+				8D0B451C2B6AAA3300206E1F /* Resources */,
+				8D0B453B2B6AAF3300206E1F /* Bundle React Native code and images */,
+				ADBD7910B26CCC93DB5687C0 /* [CP] Embed Pods Frameworks */,
+				36BD0A9ED5F4CD5C680730A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rapidsnarkAppClip;
+			productName = rapidsnarkAppClip;
+			productReference = 8D0B451E2B6AAA3300206E1F /* rapidsnarkAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,6 +304,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -207,6 +313,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					8D0B451D2B6AAA3300206E1F = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -225,6 +334,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* rapidsnarkInstantApp */,
 				00E356ED1AD99517003FC87E /* rapidsnarkInstantAppTests */,
+				8D0B451D2B6AAA3300206E1F /* rapidsnarkAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -241,8 +351,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD353292B7126540086B3A0 /* main.jsbundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0B451C2B6AAA3300206E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD3532A2B7126640086B3A0 /* main.jsbundle in Resources */,
+				8D0B45302B6AAA3400206E1F /* LaunchScreen.storyboard in Resources */,
+				8D0B452D2B6AAA3400206E1F /* Assets.xcassets in Resources */,
+				8D0B452B2B6AAA3300206E1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +404,65 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp/Pods-rapidsnarkInstantApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		36BD0A9ED5F4CD5C680730A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380AB8D46D8FF7BE5819FB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0B453B2B6AAF3300206E1F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +483,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBD7910B26CCC93DB5687C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rapidsnarkInstantApp-rapidsnarkAppClip/Pods-rapidsnarkInstantApp-rapidsnarkAppClip-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -397,6 +595,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D0B451A2B6AAA3300206E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0B45282B6AAA3300206E1F /* ViewController.m in Sources */,
+				8D0B45222B6AAA3300206E1F /* AppDelegate.m in Sources */,
+				8D0B45332B6AAA3400206E1F /* main.m in Sources */,
+				8D0B45252B6AAA3300206E1F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -405,7 +614,31 @@
 			target = 13B07F861A680F5B00A75B9A /* rapidsnarkInstantApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		8D0B45362B6AAA3400206E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0B451D2B6AAA3300206E1F /* rapidsnarkAppClip */;
+			targetProxy = 8D0B45352B6AAA3400206E1F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D0B45292B6AAA3300206E1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0B452A2B6AAA3300206E1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D0B452E2B6AAA3400206E1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0B452F2B6AAA3400206E1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -463,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-rapidsnarkInstantApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -490,6 +724,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-rapidsnarkInstantApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -664,6 +899,92 @@
 			};
 			name = Release;
 		};
+		8D0B45392B6AAA3400206E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BB77D53F9C688B2DDF0DA0 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = rapidsnarkAppClip/rapidsnarkAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rapidsnarkAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rapidsnarkInstantApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rapidsnarkInstantApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D0B453A2B6AAA3400206E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3084E4F8F173EB89864111B2 /* Pods-rapidsnarkInstantApp-rapidsnarkAppClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = rapidsnarkAppClip/rapidsnarkAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rapidsnarkAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rapidsnarkInstantApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rapidsnarkInstantApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,6 +1011,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0B45382B6AAA3400206E1F /* Build configuration list for PBXNativeTarget "rapidsnarkAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0B45392B6AAA3400206E1F /* Debug */,
+				8D0B453A2B6AAA3400206E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
