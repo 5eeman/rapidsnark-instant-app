@@ -43,7 +43,7 @@ target 'rapidsnarkInstantApp' do
     inherit! :complete
     # Pods for testing
   end
-  
+
   target 'rapidsnarkAppClip' do
     inherit! :complete
   end
@@ -57,3 +57,6 @@ target 'rapidsnarkInstantApp' do
     )
   end
 end
+
+pod 'RNFS', :path => '../node_modules/react-native-fs'
+pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'

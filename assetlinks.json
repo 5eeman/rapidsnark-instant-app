@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "com.rapidsnarkinstantapp",
+      "package_name": "com.rapidsnarkinstantapp",
+      "sha256_cert_fingerprints": [
+        "7A:74:13:61:54:EB:6B:AD:AF:9A:8B:7A:1D:0A:E0:FD:92:CD:AF:CF:4E:2B:9A:9B:52:E5:8C:91:04:C9:F2:05"
+      ]
+    }
+  }
+]
