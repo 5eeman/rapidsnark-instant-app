@@ -1,12 +1,14 @@
 /* eslint-disable */
 import type {PropsWithChildren} from 'react';
 import React, {useEffect} from 'react';
-import RNFS from "react-native-fs";
-import RNFetchBlob from "rn-fetch-blob";
+import RNFS from 'react-native-fs';
+import RNFetchBlob from 'rn-fetch-blob';
 import {Linking, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View} from 'react-native';
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
-import {downloadZip, unZipFile} from "./files_utils";
+import {downloadZip, unZipFile} from './files_utils';
+
+import {groth16_prover_zkey_file} from 'react-native-rapidsnark';
 
 const fs = RNFetchBlob.fs;
 
@@ -62,8 +64,13 @@ function App(): React.JSX.Element {
 
                 const targetPath = RNFS.DocumentDirectoryPath + '/unpacked/' + pluginName;
 
+                console.log('circuitUrl', circuitUrl);
+                console.log('callbackUrl', callbackUrl);
+
                 downloadZip(circuitUrl, async (zipPath: string) => {
                     setSaving(true);
+
+                    console.log('downloaded zip', zipPath);
 
                     // Drop existing folder with contents
                     if (await fs.exists(targetPath)) {
@@ -75,16 +82,26 @@ function App(): React.JSX.Element {
                     console.log('zipPath', zipPath);
                     // Unzip library only support zip folder, not file entries
                     return unZipFile(zipPath, targetPath);
-                }).then((files) => {
+                }).then(async (files) => {
                     const listOfFiles = files.reduce((acc: string, item: string) => {
                         return acc.concat(`${item}\n`);
                     }, '');
 
-                    console.log("Files loaded");
-                });
+                    console.log("Files loaded:\n", listOfFiles);
 
-                console.log('circuitUrl', circuitUrl);
-                console.log('callbackUrl', callbackUrl);
+                    const zkeyPath = targetPath + '/circuit_final.zkey';
+                    const witness = await RNFS.readFile(targetPath + '/witness.wtns', 'base64');
+
+                    try {
+                        console.log('calling groth16_prover_zkey_file');
+                        const proof = await groth16_prover_zkey_file(zkeyPath, witness);
+                        console.log('groth16_prover_zkey_file called:', proof);
+                    } catch (e) {
+                        console.error('error calling groth16_prover_zkey_file', e);
+                    }
+                }, (e) => {
+                    console.error('error downloading zip', e);
+                });
             } catch (e) {
                 console.error('error parsing initial url', e);
             }
